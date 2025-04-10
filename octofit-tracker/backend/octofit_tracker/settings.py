@@ -4,13 +4,13 @@ INSTALLED_APPS = [
     'tracker',
 ]
 
-# Add MongoDB database connection
+# Configure the database engine to use djongo
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'octofit_db',
-        'PORT': 27017,  # Add the default MongoDB port
-        'HOST': 'localhost',  # Add the default MongoDB host
+        'HOST': 'localhost',
+        'PORT': 27017,
     }
 }
 
