@@ -51,8 +51,8 @@ CORS_ALLOW_HEADERS = [
     '*',
 ]
 
-# Allow all hosts
-ALLOWED_HOSTS = ['*']
+# Allow host access to codespace URL and localhost
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'probable-umbrella-56v474gjqj3vgvp-8000.app.github.dev']
 
 # Add a valid SECRET_KEY
 SECRET_KEY = 'your-secret-key-here'
